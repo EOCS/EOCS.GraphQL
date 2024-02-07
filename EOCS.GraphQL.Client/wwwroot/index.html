@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+    <title>GraphQL</title>
+</head>
+<body>
+    <pre><code class="language-json" id="code"></code></pre>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.14.9/beautify.min.js"></script>
+    <script>
+        (async function () {
+            const data = JSON.stringify({
+                query: `query {
+                  customers {
+                    id
+                    name
+                    age
+                  }
+                }`
+            });
+
+            const response = await fetch(
+                'http://localhost:7020/api/graphql',
+                {
+                    method: 'post',
+                    body: data,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                }
+            );
+
+            const json = await response.json();
+            document.getElementById('code').innerHTML = js_beautify(
+                JSON.stringify(json.data)
+            );
+        })();
+    </script>
+</body>
+</html>

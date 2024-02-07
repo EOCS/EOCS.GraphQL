@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EOCS.GraphQL.Service", "EOCS.GraphQL.Service\EOCS.GraphQL.Service.csproj", "{9EBA3D43-E3AB-40FD-8381-4C53AAAE55E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EOCS.GraphQL.Client", "EOCS.GraphQL.Client\EOCS.GraphQL.Client.csproj", "{6C303C6C-3588-40DC-9008-1682F1FEE837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EBA3D43-E3AB-40FD-8381-4C53AAAE55E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBA3D43-E3AB-40FD-8381-4C53AAAE55E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBA3D43-E3AB-40FD-8381-4C53AAAE55E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBA3D43-E3AB-40FD-8381-4C53AAAE55E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C303C6C-3588-40DC-9008-1682F1FEE837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C303C6C-3588-40DC-9008-1682F1FEE837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C303C6C-3588-40DC-9008-1682F1FEE837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C303C6C-3588-40DC-9008-1682F1FEE837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15F80E34-2C02-451B-B0CA-2F76EEB35602}
+	EndGlobalSection
+EndGlobal
